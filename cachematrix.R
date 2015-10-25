@@ -37,7 +37,7 @@ cacheSolve <- function(x=matrix(), ...) {
 ## otherwise, calculates the inverse 
     matrix<-x$get()
     m<-solve(matrix, ...)
-## sets the value of the inverse in the cache via the setinv function.
+## sets the value of the inverse in the cache via the solve function.
     x$setmatrix(m)
     m
 }
